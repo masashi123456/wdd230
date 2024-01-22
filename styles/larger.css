@@ -6,7 +6,7 @@
     }
 
     .container {
-        grid-template-columns: 1fr, 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     header{
@@ -42,7 +42,7 @@
     }
 
     .optimized{
-        margin: 500 unit;
+        margin: 500 px;
     }
 
     .main-box{
