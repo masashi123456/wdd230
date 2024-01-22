@@ -98,7 +98,7 @@ footer{
     text-align: center;
 }
 
-.cntainer{
+.container{
     display: grid;
     grid-template-columns: 1f;
 }
