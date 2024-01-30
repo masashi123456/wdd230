@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Heebo:wght@500&family=Honk&family=Lora:wght@500;600&family=Roboto+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
 header{
     background-color: rgb(157, 226, 157);
     margin:0 auto;
@@ -33,10 +39,16 @@ main h1{
     padding:0.5rem;
 }
 
-.color{
-    display:grid;
-    grid-template-rows: 0.5rem 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+.colors{
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    margin-bottom: 3rem;
+
+}
+
+.color td{
+    height: 3rem;
 }
 
 .color h1{
@@ -47,11 +59,83 @@ main h1{
     
 }
 
+.maincol{
+    background-color: rgb(113, 148, 220);
+}
 
+.subcol{
+    background-color: rgb(117, 216, 216);
+}
 
+.add1{
+    background-color: gainsboro;
+}
 
+.add2{
+    background-color: rgb(144, 216, 172);
+}
 
+.color th{
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+}
 
+#typog{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.typo{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+
+}
+
+.headerp {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.bodyp{
+    font-family: 'Lora', serif;
+}
+
+.footerp{
+    font-family: 'Merriweather', serif;
+}
+
+.addr{
+    font-family: 'Rubik Glitch Pop', system-ui;
+}
+
+h4{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.pics{
+    display:flex;
+    margin-top:1rem;
+    position:relative;
+}
+
+.big{
+    max-width: 50%;
+    width:400px;
+    height:300px;
+    margin:1rem;
+    
+}
+
+.small{
+    max-width: 50%;
+    width:200px;
+    height:300px;
+    margin:1rem;
+  
+}
 
 
 
