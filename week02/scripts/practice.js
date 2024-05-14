@@ -1,24 +1,36 @@
-const input = documet.querySelector('#favchap');
-const button = documet.querySelector('button');
-const list = documet.querySelector('#list');
+const input = document.querySelector('#favchap');
+const button = document.querySelector('button');
+const list = document.querySelector('#list');
 
-button.addEventListener('click', () => {'...'});
-if (input.value != '') {'...' };
+button.addEventListener('click', (e)=>{
+    //prevent the default action of the button
+    e.preventDefault;
 
-const li = createElement('li');
-const deleteButton = document.createElement('button') ;
-button.addEventListner('delete');
-li.innerHTML = input.value;
-deleteButton.innerHTML = ('❌');
-li.append(deleteButton);
-list.apeen(li);
-deleteButton.addEventListener('click', function (){
-    list.removeChild(li);
-    input.focus();
-})
+    if (input.value){
+        const li = document.createElement('li');
 
-input.focus();
-input.value('');
+        const deleteButton = document.createElement('button');
+
+        li.textContent=input.value;
+
+        deleteButton.textContent='❌';
+        
+        li.appendChild(deleteButton);
+
+        list.appendChild(li);
+
+        deleteButton.addEventListener('click', ()=>{
+           
+            list.removeChild(li);
+        })
+
+
+    }else{
+        input.focus();
+    }
+});
+
+
 
 
 

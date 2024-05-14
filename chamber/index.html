@@ -3,31 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Masashi Ota">
+    <meta name="description" content="WDD Fronted Development Chamber Site">
+    <meta property="og:title" content="Chamber Site">
+    <meta property="og:img" content="">
+    <meta property="og:url"content="https://masashi123456.github.io/cse121b/">
     <title>Sapporo Chamber</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
 
 </head>
 <body>
     <header>
+        <nav>
+            <a href=""></a>
+            <a href="index.html">Chamber</a>
+            <a href="week1/chamber-site-plan.html">Site Plan</a>
+            <a href=""></a>
+        </nav>
         <div class="hero_image">
             <img id="city" src="images/sap1.jpg" alt="Sapporo City">
             <div class="hero_message">
-                <h1>Live in beautiful Snow City!!</h1>
-                <h2>Sapporo Cahmber of Commerce</h2>
+                <h1>Live in the beautiful Snow City!!</h1>
+                <h2>Sapporo Chamber of Commerce<h2>
             </div>
         </div>
     </header>
     <main>
-        <section class="lemma">
-        <h1>Our purpose</h1>
-        <p></p>
+        <section class="purpose">
+            <h1>Our purpose</h1>
+            <p>&nbsp;Sapporo Chamber of Commerce is based on Sapporo city Japan, and aim for a better local community by improving and empower local welfare and businesses in Sapporo. We offer workshops and educational event to members and contribute overall well-being.
+            </p>
         </section>
+
+        <section class="event">
+
+            <section class="w_box">
+                <h1 id="weather">Today's whether in Sapporo!!</h1>
+                <p id="weather"><p></p>
+                <p id="today"></p>
+            </section>
+
+            <section class="event1">
+                <h1>Sapporo Chamber Seminar</h1>
+                <p>This is a seminar</p>
+            </section>
+
+            <section class="event2">
+                <h1>Sapporo Chamber Seminar</h1>
+                <p>This is a se
+            </section>
+
+            <section class="event3">
+                <h1>Sapporo Chamber Seminar</h1>
+                <p>This is a se
+            </section>
+
+        </section>
+        
+        
+
+        </section>
+        
+        <section class="cta">
+            <button id="close">X</button>
+            <h1>Join our community</h1>
+            <div>
+                <label for="jname">Your Name</label>
+            </div>
+            <div id=tname>
+                <input type="text" id="jname" name='jname'>
+            </div>
+            <div>
+                <label for="company">Company Name</label>
+            </div>
+            <div id="tcompany">
+                <input type="text" id="company" name="company">
+            </div>
+            <div>
+                <label for="address">Your email address</label>
+            </div>
+            <div id="taddress">
+                <input type="address" id="address" name="address">
+            </div>
+            <button type="submit" id="fjoin">Join</button>
+        </section>
+        <div id="dmap"><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d373591.95732131024!2d140.91831582054343!3d42.984863092020426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0ad4755a973633%3A0x33937e9d4687bad5!2sSapporo%2C%20Hokkaido%2C%20Japan!5e0!3m2!1sen!2sus!4v1705597471435!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </main>
     <footer>
         <div>
-            <p><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d373591.95732131024!2d140.91831582054343!3d42.984863092020426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0ad4755a973633%3A0x33937e9d4687bad5!2sSapporo%2C%20Hokkaido%2C%20Japan!5e0!3m2!1sen!2sus!4v1705597471435!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
         </div>
     </footer>
+    <script src="scripts/chamber.js"></script>
 </body>
 </html>

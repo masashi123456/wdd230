@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32em){
+@media only screen and (min-width: 32rem){
     h1{
         color:rgba(80, 185, 185, 0.646);
         text-decoration:underline;
@@ -41,14 +41,17 @@
         font-size: 50px;
     }
 
-    .optimized{
-        margin: 500px;
+    #optimized{
+        width: 150px;
     }
 
     .main-box{
         display:grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 15px;
+    }
+
+    #name{
     }
     
     

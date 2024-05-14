@@ -1,6 +1,6 @@
 
 body{
-    background:linear-gradient(to top, #ffcc99 0%, #99ffcc 100%)
+    background-color: rgb(244, 236, 225);
 }
 
 header{
@@ -8,7 +8,19 @@ header{
     grid-template-columns: 1fr 3fr;
     background-color: #8ebeb4;
     position:relative;
-    text-align: center;
+}
+
+#optimized{
+    width: 80px;
+    height: auto;
+}
+.yellow{
+    color:white;
+    font-size: 10vw;
+    display:flex;
+    position:relative;
+    align-items: center;
+    max-width: 100%;
 }
 
 nav{
@@ -85,18 +97,13 @@ h2{
 }
 
 footer{
-    color:blue
+    background-color: #8ebeb4;
+
 }
 
 #name{
-    color:aliceblue
-}
-
-.yellow{
-    color:white;
-    font-size: 40px;
-    position:relative;
-    text-align: center;
+    color:aliceblue;
+    left:10px;
 }
 
 .container{
@@ -104,10 +111,6 @@ footer{
     grid-template-columns: 1fr;
 }
 
-.optimized{
-    width: 16px;
-    height: 16px;
-}
 
 #year{
     text-align: center;
@@ -125,7 +128,7 @@ footer{
 }
 
 .end{
-    background-color: rgb(212, 95, 95);
+    background-color: #8ebeb4;
     width:100%;
     height: 150px;
 

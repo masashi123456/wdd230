@@ -4,5 +4,5 @@ currentYearElement.innerHTML = `&copy:${currentYear}`;
 
 const lastModifiedElement = document.querySelector("#lastModified");
 const lastModified = document.lastModified;
-lastModifiedElement.innerHTTML = `Last Modified: <em>${lastModified}</em>`;
+lastModifiedElement.innerHTML = `Last Modified: <em>${lastModified}</em>`;
 

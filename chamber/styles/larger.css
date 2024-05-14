@@ -1,17 +1,51 @@
-@media screen and (min-width: 32em){
+@media screen and (min-width: 32rem){
 
-    
+  .hero_message{
+    position:absolute;
+    width:50%;
+    height:auto;
+    min-height:20%;
+    top:10%;
+    left:2%;
+    margin:1rem;
+    margin-top: 8%;
+    padding: 20px;
+    background-color: rgb(111, 253, 253);
+    opacity:0.8;
+} 
 
-    .hero_message{
-        
-        margin-top: 10%;
-    }
+.hero_message h1{
+  font-size: 3vw;
+  margin-bottom: 15px;
+  
+}
 
-    h1{
-        font-size: 2rem;
-    }
+.hero_message h2{
+  margin-bottom:7px
+}
 
-    h2{
-        font-size:1.5rem;
-    }
+.purpose h1{
+  font-size: 1.5rem;
+}
+
+.purpose{
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+.purpose p{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#dmap{
+  height: 100rem;
+  width:80rem
+}
+
+ 
   }
