@@ -15,7 +15,6 @@ header{
     height: auto;
 }
 .yellow{
-    color:white;
     font-size: 10vw;
     display:flex;
     position:relative;
@@ -23,16 +22,21 @@ header{
     max-width: 100%;
 }
 
+
 nav{
     display: grid;
-    background-color: rgba(150, 150, 228, 0.708);
+    background-color: #9696e4b5;
     
 }
 
 .navigation{
-    color:white;
+    color:5c5f68;
     font-size: 24px;
     text-align: center;
+}
+
+.c{
+    display: none;
 }
 
 .home_image{
@@ -54,7 +58,7 @@ nav{
 }
 
 .home_text{
-    background-color: rgb(102, 105, 108);
+    background-color: rgb(17, 39, 39/65%);
     text-align: right;
     margin:0 auto;
     position: absolute;
@@ -64,7 +68,7 @@ nav{
 
 
 h1{
-    color:rgba(80, 185, 185, 0.646);
+    color:rgba(38 88 88/65%);
     text-decoration:underline;
     font-size: 25px;
     
@@ -102,7 +106,7 @@ footer{
 }
 
 #name{
-    color:aliceblue;
+    color:#5c5f68;
     left:10px;
 }
 

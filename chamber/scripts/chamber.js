@@ -8,6 +8,11 @@ let Lday = currentDay.toLocaleDateString("en-US",{
 })
 nowDay.textContent = currentDay;
 
+let closeButton = document.querySelector('#close')
+closeButton.addEventListener('click' function(){
+    closeButton.toggleClass('.c')
+})
+
 
 
 const weather = [

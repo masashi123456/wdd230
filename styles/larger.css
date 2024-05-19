@@ -1,6 +1,6 @@
 @media only screen and (min-width: 32rem){
     h1{
-        color:rgba(80, 185, 185, 0.646);
+        color:rgba(38, 88, 88, 0.646);
         text-decoration:underline;
         
     }
@@ -14,7 +14,7 @@
         grid-template-columns: 1fr 3fr;
         background-color: #8ebeb4;
         
-        color:aliceblue;
+        color:#444648;
         position:relative;
         text-align: left;
     }
@@ -27,7 +27,7 @@
     }
 
     .navigation{
-        color:aliceblue;
+        color:#5c5f68;
         font-size: 24px;
         text-align: center;
     }
