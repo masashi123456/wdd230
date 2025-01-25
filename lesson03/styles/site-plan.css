@@ -39,6 +39,14 @@ main h1{
     padding:0.5rem;
 }
 
+.scenarios{
+    margin: 2rem;
+    border:double 10px blue;
+    border-color: blue;
+    text-align: left;
+    padding:0.5rem;
+}
+
 .colors{
     text-align: center;
     font-size: 3rem;
