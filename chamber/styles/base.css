@@ -113,10 +113,40 @@ header{
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 50rem;
-    width:30rem
+    height: 5rem;
+    width:auto;
 }
 #map{
     width:50%;
-    height:20%
+    height:30rem;
+}
+
+footer{
+    text-align: center;
+    background-color: #8ebeb4;
+    max-width: 100%;
+    display: block;
+    padding: 1rem;
+    margin-top: 10px;
+    height:10rem;
+}
+footer p{
+    margin:0 auto;
+}
+
+#year{
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    margin-bottom: 3rem;
+}
+
+.end{
+    background-color: #8ebeb4;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:1rem;
+
 }
