@@ -46,3 +46,20 @@ document.addEventListener("DOMContentLoaded",()=>{
         nav.classList.toggle("show-nav");
     });
 });
+
+function myFunction(){
+    var x = document.getElementById("navigation");
+    if(x.style.display === "block"){
+        x.style.display="none";
+    }else{
+        x.style.display = "block"
+    }
+}
+
+const nav = document.querySelector('.navigation')
+const respbutton = document.querySelector('#rmenu');
+
+respbutton.addEventListener('click', ()=>{
+    nav.classList.toggle('show');
+    respbutton.classList.toggle('show');
+})

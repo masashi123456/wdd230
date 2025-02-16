@@ -1,5 +1,16 @@
 @media screen and (min-width: 32rem){
 
+  .navigation{
+    display: flex;
+  }
+  .navigation li{
+      display:block;
+  }
+  #menu{display:none;
+  }
+
+
+
   .hero_message{
     position:absolute;
     width:50%;

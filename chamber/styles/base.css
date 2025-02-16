@@ -4,6 +4,46 @@ header{
     position:relative;
 }
 
+
+#rmenu{
+    display: flex;
+    font-size: 3rem;
+    font-weight:bold;
+    background-color: #9696e4b5;
+    cursor:pointer;
+    border:none;
+    align-items:center;
+    overflow: hidden;
+    
+  }
+  #rmenu::before{
+    content: "≡";
+    display:inline-block;
+    display:block;
+  }
+  .navigation{
+    list-style:none;
+  }
+  .navigation li{
+    display:none;
+  }
+  .navigation a{
+    display:block
+  }
+  .navigation a:hover, .navigation a:active{
+    color:aqua;
+  }
+  .show li{
+    display: block;
+  }
+  #rmenu.show::before{
+    content:"X"
+  }
+
+  
+
+
+
 #city{
     width:100%;
     height:auto;
