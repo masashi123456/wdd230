@@ -63,3 +63,17 @@ respbutton.addEventListener('click', ()=>{
     nav.classList.toggle('show');
     respbutton.classList.toggle('show');
 })
+
+const mode = document.querySelector("main");
+const dark = document.querySelector(".dark input");
+const disp = document.getElementById("mode");
+
+dark.addEventListener('click', ()=>{
+    if(disp.textContent.includes("mode")){
+      mode.style.background = "black";   
+      disp.textContent="black"
+    }else{
+        mode.style.background = "white";  
+        disp.textContent="mode"
+    }
+});

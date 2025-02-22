@@ -3,6 +3,15 @@
 header{
     position:relative;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 20px
+}
+nav li{
+    justify-content: space-between;
+}
 
 
 #rmenu{
@@ -14,6 +23,7 @@ header{
     border:none;
     align-items:center;
     overflow: hidden;
+    text-decoration: none;
     
   }
   #rmenu::before{
@@ -26,6 +36,7 @@ header{
   }
   .navigation li{
     display:none;
+    list-style: none;
   }
   .navigation a{
     display:block
@@ -38,6 +49,62 @@ header{
   }
   #rmenu.show::before{
     content:"X"
+  }
+
+
+
+  .dark{
+    position:relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+  }
+  .dark input {
+    opacity: 1;
+    width: 0;
+    height:0;
+  }
+  .switch{
+    position:absolute;
+    cursor: pointer;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: #ccc;
+    -webkit-transition: .3s;
+    transition:.3s;
+  }
+  .switch:before{
+    position:absolute;
+    content:"";
+    height: 20px;
+    width:20px;
+    left: 1px;
+    bottom: 4px;
+    background-color:white;
+    -webkit-transition: .3s;
+    transition:.3s;
+  }
+
+  input:checked + .switch{
+    background-color:black
+
+  }
+  input.focus + .switch{
+    box-shadow: 0 0 1px black;
+  }
+  input:checked + .switch:before{
+    -webkit-transform: translateX(27px);
+    -ms-transform: translateX(27px);
+    transform: translateX(27px);
+  }
+
+  .switch.round{
+    border-radius: 32px;
+  }
+  .switch.round:before{
+    border-radius:40%;
   }
 
   

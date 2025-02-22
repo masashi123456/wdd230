@@ -1,13 +1,28 @@
 @media screen and (min-width: 32rem){
 
+  nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 20 px;
+  }
+
   .navigation{
     display: flex;
+    flex-grow:1;
+    background-color:#9696e4b5;
+    margin: 0;
+    justify-content: space-around;
   }
   .navigation li{
       display:block;
   }
-  #menu{display:none;
+  
+  #rmenu{display:none;
   }
+
+
+  
 
 
 
