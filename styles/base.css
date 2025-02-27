@@ -13,6 +13,7 @@ header{
 #optimized{
     width: 80px;
     height: auto;
+    border-radius: 50%;
 }
 .yellow{
     font-size: 10vw;
@@ -105,6 +106,23 @@ nav.show-nav{
     position: absolute;
     top: 50%;
     opacity: 0.8;
+}
+
+.hero{
+    position:relative;
+}
+
+.hero picture img{
+    width: 100%;
+}
+
+#hero_msg{
+    position:absolute;
+    top:45px;
+    right: 45px;
+    background-color: rgb(218, 243, 243);
+    opacity: 1;
+    font-size: 4vw;
 }
 
 
