@@ -119,6 +119,13 @@ nav li{
     
 }
 
+.hero{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero_image{
     position:relative;
     

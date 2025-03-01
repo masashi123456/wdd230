@@ -32,16 +32,26 @@
                 <span class="switch"></span>
             </label>
         </nav>
-        <div class="hero_image">
+        <!--<div class="hero_image">
             <img id="city" src="images/sap1.jpg" alt="Sapporo City">
             <section class="hero_message">
                 <h1>Sapporo Chamber of Commerce</h1>
                 <h2>Live in the beautiful Snow City!!</h2>
             </section>
         </div>
+    -->
+
     </header>
     <div id="mode">mode</div>
     <main>
+        <div class="hero">
+            <picture>
+                <source id="shero" srcset="images/small.webp" media="(max-width: 426px)">
+                <source id="mhero" srcset="images/medium.webp" media="(max-width:768px)" >
+                <img id="lhero" src="images/large.webp" alt="large_img">
+            </picture>
+            
+        </div>
         <section class="purpose">
             <h2>Our purpose</h2>
             <p>&nbsp;Sapporo Chamber of Commerce is based on Sapporo city Japan, and aim for a better local community by improving and empower local welfare and businesses in Sapporo. We offer workshops and educational event to members and contribute overall well-being.
@@ -52,8 +62,9 @@
 
             <section class="w_box">
                 <h2 id="weather">Today's whether in Sapporo!!</h2>
-                <p id="tenki"><p></p>
-                <p id="today"></p>
+                <p id="temperature"><p></p>
+                <p id="speed"></p>
+                <p id="wind_chill"></p>
             </section>
 
             <section class="event1">
@@ -113,5 +124,6 @@
         
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
