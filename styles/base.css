@@ -180,7 +180,8 @@ footer{
 
 #lastModified{
     text-align:center;
-    color:black
+    color:black;
+    font-size: 1rem;
 }
 
 footer p{
