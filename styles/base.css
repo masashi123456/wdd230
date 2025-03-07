@@ -14,6 +14,7 @@ header{
     width: 80px;
     height: auto;
     border-radius: 50%;
+    object-fit: cover;
 }
 .yellow{
     font-size: 10vw;
@@ -84,6 +85,7 @@ nav.show-nav{
     background-position: center ;
     background-size: cover;
     position:relative;
+    object-fit: cover;
 
     
 }
@@ -113,6 +115,7 @@ nav.show-nav{
 
 .hero picture img{
     width: 100%;
+    object-fit: cover;
 }
 
 #hero_msg{
@@ -145,6 +148,9 @@ nav.show-nav{
     background-color: blue;
 }
 
+#map{
+    width:100%;
+}
 
 
 

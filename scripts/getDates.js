@@ -17,3 +17,14 @@ document.addEventListener("DOMContentLoaded",()=>{
     });
 });
 
+const countElement = document.querySelector(".view_count");
+let viewCount = localStorage.getItem("viewPage");
+
+if(!viewCount){
+    viewCount=0;
+}
+
+viewCount = Number(viewCount)+1;
+countElement.textContent = viewCount;
+localStorage.setItem("viewPage", viewCount);
+
