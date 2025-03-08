@@ -75,5 +75,10 @@
   width:80rem
 }
 
+.side :hover{
+  transition: scale(1.2);
+  filter: brightness(1.2)
+}
+
  
 }
