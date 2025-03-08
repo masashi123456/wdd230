@@ -75,6 +75,22 @@
   width:80rem
 }
 
+#discover{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(210, 232, 237);
+  gap:25px;
+  padding: 25px;
+}
+
+#description{
+  grid-column: 0/1;
+}
+
+.side{
+  grid-column: 2/3;
+}
+
 .side :hover{
   transition: scale(1.2);
   filter: brightness(1.2)
