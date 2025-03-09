@@ -97,7 +97,7 @@
 }
 
 .side img:hover{
-  transition: scale(1.2);
+  transform: scale(1.2);
   filter: brightness(1.2)
 }
 
