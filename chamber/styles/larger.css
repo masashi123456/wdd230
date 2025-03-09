@@ -84,14 +84,18 @@
 }
 
 #description{
-  grid-column: 0/1;
+  grid-column: 1/2;
 }
 
 .side{
   grid-column: 2/3;
 }
 
-.side :hover{
+.side img{
+  transition: transform 0.3s ease-in-out;
+}
+
+.side img:hover{
   transition: scale(1.2);
   filter: brightness(1.2)
 }
