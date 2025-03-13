@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Masashi Ota">
-        <meta name="description" content="WDD 230 - Web Fronted Development Masashi Ota course assignment portal">
+        <meta name="description" content="WDD 230 - Web Frontend Development Masashi Ota Form">
         <meta property="og:title" content="WDD 230 Course Portal">
         <meta property="og:type" content="Web Page">
         <meta property="og:image" content="https://masashi123456.github.io/wdd230/week02/image.html">
@@ -47,11 +47,13 @@
                     <label>Password<input type="password" id="password" name="password" pattern="[A-Za-z]{8,}" required></label>
                     <label>Password Confirmation<input type="password" id="password2" name="password2" pattern="[A-Za-z]{8,}" required></label>
                     <div id="pmessage"></div>
-                    <label>Email Address<input type="password" id="email" name="email" pattern="[A-Za-z0-9_.\-]+@byui.edu" 
+                    <label>Email Address<input type="email" id="email" name="email" pattern="[A-Za-z0-9_.\-]+@byui.edu" 
                         required title="Please put valid email address contains @byui.edu"></label>
-                    <label>Rating<input type="range" id="rate" name="rate" 
-                        min="1" max="10" value="0" step="1" oninput="rangeValue.value=this.value">
-                    <output id="rangeValue">5</output></label>
+                    <div id="rating">    
+                        <label>Rating<input type="range" id="rate" name="rate" 
+                            min="1" max="10" value="0" step="1" oninput="rangeValue.value=this.value"></label>
+                        <output id="rangeValue">5</output>
+                    </div>
                     <button type="submit">Send the information</button>
                 </fieldset>
 
@@ -67,7 +69,5 @@
             <p id="lastModified"></p>
             </div>
         </footer>
-<body>
-    
-</body>
+    </body>
 </html>
