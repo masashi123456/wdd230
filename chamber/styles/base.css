@@ -301,3 +301,45 @@ figcaption{
   padding:15px;
   margin:15px;
 }
+
+
+
+
+/* JOin*/
+form{
+  background-color: rgb(180, 200, 239);
+  margin: 50px;
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea{
+  display:block;
+}
+
+.benefits{
+  max-width: 450px;
+  margin:16px auto;
+  background-color: rgb(234, 250, 232);
+  padding:16px;
+  border-top:10px solid rgb(52, 252, 109);
+  border-radius:10px;
+  box-shadow: 10px 10px 2px whitesmoke;
+}
+
+.benefits h2{
+  color:rgb(4, 117, 117);
+}
+
+.benefits ul{
+  list-style: none;
+}
+
+.benefits li::before{
+  content:"✔";
+  font-weight: bold;
+  margin-right: 16px;
+}
