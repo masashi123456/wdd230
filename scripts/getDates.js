@@ -57,21 +57,4 @@ respbutton.addEventListener('click', ()=>{
 })
 
 
-//Form
-const pas1 = document.querySelector("#password");
-const pas2 = document.querySelector("#password2");
-const pmsg = document.querySelector("#pmessage");
 
-pas2.addEventListener("focusout", verification);
-function verification(){
-    if(pas1.value !== pas2.value){
-        pmsg.textContent = "The password does not match";
-        pmsg.style.color = "red"
-        pas2.value ="";
-        pas2.focus();
-
-    }else{
-        pmsg.textContent = "The password is verified!!"
-        pmsg.style.color = "blue"
-    }
-}

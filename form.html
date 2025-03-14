@@ -49,7 +49,7 @@
                     <div id="pmessage"></div>
                     <label>Email Address<input type="email" id="email" name="email" pattern="[A-Za-z0-9_.\-]+@byui.edu" 
                         required title="Please put valid email address contains @byui.edu"></label>
-                    <div id="rating">    
+                    <div id="rating">
                         <label>Rating<input type="range" id="rate" name="rate" 
                             min="1" max="10" value="0" step="1" oninput="rangeValue.value=this.value"></label>
                         <output id="rangeValue">5</output>
@@ -69,5 +69,7 @@
             <p id="lastModified"></p>
             </div>
         </footer>
+        <script src ="scripts/form.js"></script>
+        <script src="scripts/getDates.js"></script>
     </body>
 </html>
