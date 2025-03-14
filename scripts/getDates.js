@@ -66,10 +66,12 @@ pas2.addEventListener("focusout", verification);
 function verification(){
     if(pas1.value !== pas2.value){
         pmsg.textContent = "The password does not match";
+        pmsg.style.color = "red"
         pas2.value ="";
         pas2.focus();
 
     }else{
-        pmsg.value = "The password is verified!!"
+        pmsg.textContent = "The password is verified!!"
+        pmsg.style.color = "blue"
     }
 }
