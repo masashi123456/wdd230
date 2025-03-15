@@ -10,9 +10,9 @@
     <meta property="og:image" content="https://masashi123456.github.io/wdd230/week02/image.html">
     <meta property="og:url" content="https://masashi123456.github.io/wdd230/">
     <title>Masashi Ota - WDD 230 - Chamber Join form</title>
-    <link rel="stylesheet" href="styles/normalize.css">
     <link rel = "stylesheet" href = "styles/base.css">
     <link rel = "stylesheet" href = "styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,40 +38,42 @@
     
     
     <main>
-        <form method="get" action="thankyou.html">
-            <fieldset>
-                <legend>User Information</legend>
-                <label>First Name<input type="text" id="fName" name="fName" required></label>
-                <label>Last Name<input type="text" id="lName" name="lName" required></label>
-                <label>Title or Position<input type="text" id="position" name="position" pattern="[A-Za-z0-9_.\-]{7,}" required></label>
-                <label>Email Address<input type="email" id="email" name="email" pattern="[A-Za-z0-9_.\-]+@byui.edu" 
-                    placeholder="example@exa.com" required></label>
-                <label>Mobile Phone Number<input type="tel" id="phone" name="phone" required></label>
-                <label>Business/Organization Name<input type="text" id="business" name="business" required></label>
+        <div class="page_form">
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label>First Name<input type="text" id="fName" name="fName" required></label>
+                    <label>Last Name<input type="text" id="lName" name="lName" required></label>
+                    <label>Title or Position<input type="text" id="position" name="position" pattern="[A-Za-z0-9_.\-]{7,}" required></label>
+                    <label>Email Address<input type="email" id="email" name="email" pattern="[A-Za-z0-9_.\-]+@byui.edu" 
+                        placeholder="example@exa.com" required></label>
+                    <label>Mobile Phone Number<input type="tel" id="phone" name="phone" required></label>
+                    <label>Business/Organization Name<input type="text" id="business" name="business" required></label>
 
-                <label>Membership type
-                    <select id="level" name="level" required>
-                        <option value="" disabled selected>Please select your membership</option>
-                        <option value="NP Membership">NP Membership(non profit organizations and there is nno fee)</option>
-                        <option value="Bronze Membership">Bronze Membership</option>
-                        <option value="Silver Membership">Silver Membership</option>
-                        <option value="Gold Membership">Gold Membership</option>
-                    </select>
-                </label>
+                    <label>Membership type
+                        <select id="level" name="level" required>
+                            <option value="" disabled selected>Please select your membership</option>
+                            <option value="NP Membership">NP Membership(non profit organizations and there is nno fee)</option>
+                            <option value="Bronze Membership">Bronze Membership</option>
+                            <option value="Silver Membership">Silver Membership</option>
+                            <option value="Gold Membership">Gold Membership</option>
+                        </select>
+                    </label>
 
-                <label>A business/Organization description<textarea name="description" id="description"></textarea></label>
-                <label><input type="hidden" id="current" name="current"></label>
-                <button type="submit">Send the information</button>
-            </fieldset>
-        </form>
-        <div class="benefits">
-            <h2>Membership Benefits</h2>
-            <ul>
-                <li><strong>NP Membership: </strong>Access to general events.</li>
-                <li><strong>NP Membership: </strong>Event discounts, training session</li>
-                <li><strong>NP Membership: </strong>Advertisement opportunities</li>
-                <li><strong>NP Membership: </strong>Premium Advertising, all benefits from silver membership + Vip benefits</li>
-            </ul>
+                    <label>A business/Organization description<textarea name="description" id="description"></textarea></label>
+                    <label><input type="hidden" id="current" name="current"></label>
+                    <button type="submit">Send the information</button>
+                </fieldset>
+            </form>
+            <div class="benefits">
+                <h2>Membership Benefits</h2>
+                <ul>
+                    <li><strong>NP Membership: </strong>Access to general events.</li>
+                    <li><strong>NP Membership: </strong>Event discounts, training session</li>
+                    <li><strong>NP Membership: </strong>Advertisement opportunities</li>
+                    <li><strong>NP Membership: </strong>Premium Advertising, all benefits from silver membership + Vip benefits</li>
+                </ul>
+            </div>
         </div>
 
         

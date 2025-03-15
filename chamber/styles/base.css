@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.benefits{
+  display: none;
+}
 header{
     position:relative;
 }
@@ -308,7 +311,7 @@ figcaption{
 /* JOin*/
 form{
   background-color: rgb(180, 200, 239);
-  margin: 50px;
+  margin: 10px;
 }
 
 label{
@@ -320,26 +323,7 @@ input, textarea{
   display:block;
 }
 
-.benefits{
-  max-width: 450px;
-  margin:16px auto;
-  background-color: rgb(234, 250, 232);
-  padding:16px;
-  border-top:10px solid rgb(52, 252, 109);
-  border-radius:10px;
-  box-shadow: 10px 10px 2px whitesmoke;
+select{
+  width:100%;
 }
 
-.benefits h2{
-  color:rgb(4, 117, 117);
-}
-
-.benefits ul{
-  list-style: none;
-}
-
-.benefits li::before{
-  content:"✔";
-  font-weight: bold;
-  margin-right: 16px;
-}

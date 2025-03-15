@@ -101,5 +101,35 @@
   filter: brightness(1.2)
 }
 
+.page_form{
+  display:flex;
+}
+
+.benefits{
+  display: block;
+  max-width: 450px;
+  margin:16px auto;
+  background-color: rgb(234, 250, 232);
+  padding:16px;
+  border-top:10px solid rgb(52, 252, 109);
+  border-radius:10px;
+  box-shadow: 10px 10px 2px whitesmoke;
+  height: 50%;
+}
+
+.benefits h2{
+  color:rgb(4, 117, 117);
+}
+
+.benefits ul{
+  list-style: none;
+}
+
+.benefits li::before{
+  content:"✔";
+  font-weight: bold;
+  margin-right: 16px;
+}
  
 }
+
