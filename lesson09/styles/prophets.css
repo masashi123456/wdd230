@@ -1,0 +1,14 @@
+header{
+    background-color: rgb(54, 50, 59);
+    color:aliceblue;
+    margin: 0;
+    padding:16px;
+}
+main{
+    background-color: rgb(127, 127, 198);
+}
+#cards{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr)) ;
+}
+
