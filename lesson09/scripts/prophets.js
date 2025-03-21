@@ -22,8 +22,8 @@ const displayProphets = (prophets) =>{
         pimg.setAttribute('src', prophet.imageurl);
         pimg.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         pimg.setAttribute('loading', 'lazy');
-        pimg.setAttribute('width', '400');
-        pimg.setAttribute('height', '500');
+        pimg.setAttribute('width', '300');
+        pimg.setAttribute('height', '400');
 
         card.appendChild(name);
         card.appendChild(pimg);
