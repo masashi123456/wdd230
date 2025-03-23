@@ -1,8 +1,8 @@
-const url = 
+const url = "https://masashi123456.github.io/wdd230/chamber/data/members.json";
 const members = document.querySelector('#members');
 
 async function getMembers(){
-    const response = await fetch("../data/members.json");
+    const response = await fetch(url);
     const data = await response.json();
     displayMembers(data.members);
 }
@@ -37,7 +37,7 @@ const displayMembers = (members) =>{
         card.appendChild(name);
         card.appendChild(pimg);
 
-        membersContainer.appendChild(card);
+        members.appendChild(card);
 
 
     })
