@@ -35,6 +35,11 @@ const displayMembers = (members) =>{
         pimg.setAttribute('height', '400');
 
         card.appendChild(name);
+        card.appendChild(address);
+        card.appendChild(phone);
+        card.appendChild(url);
+        card.appendChild(level);
+        card.appendChild(info);
         card.appendChild(pimg);
 
         directory.appendChild(card);
