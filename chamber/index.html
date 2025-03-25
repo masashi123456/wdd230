@@ -21,11 +21,11 @@
         <a id="rmenu" href="#"> </a>
         <nav>
             <ul class="navigation">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="chamber/index.html">Chamber</a></li>
-                <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>        
-                <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=eng#p19">Scripture</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="join.html">Jois US</a></li>
+                <li><a href="discover.html">Discover</a></li>        
+                <li><a href="directory.html">Membership</a></li>
+                
             </ul>
             <label class="dark">
                 <input type="checkbox">
@@ -38,9 +38,9 @@
     <main>
         <div class="hero">
             <picture>
-                <source id="shero" srcset="images/small.webp" media="(max-width: 426px)">
-                <source id="mhero" srcset="images/medium.webp" media="(max-width:768px)" >
-                <img id="lhero" src="images/large.webp" alt="large_img">
+                <source id="shero" srcset="images/smallHero.webp" media="(max-width:31.9rem)">
+                <source id="mhero" srcset="images/mediumHero.webp" media="(max-width:32rem)" >
+                <img id="lhero" src="images/largeHero.webp" alt="large_img">
             </picture>
             
         </div>
@@ -53,10 +53,17 @@
         <div class="event">
 
             <section class="w_box">
-                <h2 id="weather">Today's whether in Sapporo: <span id=currTemp></span></span></h2>
+                <h2 id="weather">Today's wheather in Sapporo: <figcaption></figcaption></h2>
                 <figure>
+                    
                     <img id="wicon" src="" alt="">
-                    <figcaption></figcaption>
+                    <span id=currTemp></span>
+                    <h3>Forecast for three days</h3>
+                    <div id="forecast">
+                        <div class="fdays" id="1day"></div>
+                        <div class="fdays" id="2day"></div>
+                        <div class="fdays" id="3day"></div>
+                    </div>
                 </figure>
             </section>
 
@@ -77,11 +84,14 @@
 
         </div>
         
+        <div id="attendBanner" class="banner">
+            <p>Are you interested in joining our meet and great on Wednesday 7 pm? </p>
+            <button id="closeBun">X</button>
         
 
     
         
-        <section class="cta">
+<!--  <section class="cta">
             <button id="close">X</button>
             <h3>Join our community</h3>
             <div>
@@ -104,7 +114,7 @@
             </div>
             <button type="submit" id="fjoin">Join</button>
         </section>
-        
+    -->
     </main>
     <footer>
     
@@ -117,6 +127,8 @@
         </div>
         
     </footer>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/getDates.js"></script>

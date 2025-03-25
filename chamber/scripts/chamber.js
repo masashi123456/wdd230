@@ -78,9 +78,16 @@ dark.addEventListener('click', ()=>{
     }
 });
 
-//weather
-const url ='';
-const currTemp = document.getElementById("currTemp");
-const weatherImg = document.getElementById("wicon");
-const caption = document.querySelector('figcaption');
+
+
+//banner
+const today = new Date();
+const dayWeek= today.getDay();
+if(dayWeek>=1&&dayWeek<=3){
+    document.getElementById('attendBanner').style.display = "block";
+}
+
+document.getElementById("closeBun").addEventListener("click", ()=>{
+    document.getElementById("attendBanner").style.display = "none";
+})
 
