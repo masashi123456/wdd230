@@ -10,7 +10,6 @@
   .navigation{
     display: flex;
     flex-grow:1;
-    background-color:#9696e4b5;
     margin: 0;
     justify-content: space-around;
   }
