@@ -77,3 +77,10 @@ dark.addEventListener('click', ()=>{
         disp.textContent="mode"
     }
 });
+
+//weather
+const url ='';
+const currTemp = document.getElementById("currTemp");
+const weatherImg = document.getElementById("wicon");
+const caption = document.querySelector('figcaption');
+
