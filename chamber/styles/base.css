@@ -362,14 +362,23 @@ select{
 
 #weather{
   display:inline;
+  white-space: nowrap;
 
 }
 #weather figcaption{
   display:inline;
 }
 
+#wtitle{
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
 figcaption{
   color: blue;
+  font-size: 1.5rem;
+  margin-left: 16px;
 }
 
 #wicon{
@@ -378,7 +387,7 @@ figcaption{
 }
 
 .banner{
-  position:flex;
+  display:flex;
   background-color: rgb(159, 219, 219);
   padding:16px
 }
