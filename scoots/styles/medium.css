@@ -1,0 +1,24 @@
+@media screen and (min-width: 32rem){
+    header{
+        display:flex;
+        align-items: center;
+    }
+    .title{
+        width:30%;
+    }
+    
+    #icon{
+        width: 80px;
+    }
+    .title h1{
+        display: none;
+    }
+
+    nav{
+        background-color: rgb(109, 144, 234);
+        display: flex;
+        gap:60px;
+        font-size: 20px;
+        margin-left: 0;
+    }
+}

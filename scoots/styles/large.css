@@ -1,0 +1,17 @@
+@media screen and (min-width: 1024px){
+    header{
+        display:flex;
+        align-items: center;
+    }
+    #icon{
+        width: 150px;
+        margin:10px;
+    }
+    nav{
+
+        gap:60px;
+        font-size: 30px;
+        align-items: center;
+        
+    }
+}
