@@ -1,9 +1,9 @@
-fetch('table.json')
+fetch('data/rent.json')
 .then(response=>response.json())
 .then(data =>{
-    const table = document.querySelectorAll("#rTable tbody");
+    const table = document.querySelector("#rTable tbody");
 
-    data.rentType.forEach(item=>{
+    data.rent_type.forEach(item=>{
 
         const row = document.createElement("tr");
 
@@ -13,7 +13,7 @@ fetch('table.json')
         <td>${item.rHalf}</td>
         <td>${item.rFull}</td>
         <td>${item.wHalf}</td>
-        <td>${item.rFull}</td>
+        <td>${item.wFull}</td>
         
         `;
         table.appendChild(row);

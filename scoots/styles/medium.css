@@ -46,4 +46,12 @@
     footer{
         font-size: 32px;
     }
+
+
+
+
+    /*rental*/
+    #rTable{
+        margin: 4rem;
+    }
 }
