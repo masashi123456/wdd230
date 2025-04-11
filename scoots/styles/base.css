@@ -197,3 +197,9 @@ label{
     height: 50px;
 }
 
+/*rental*/
+table, th, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
