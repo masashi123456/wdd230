@@ -1,3 +1,4 @@
+/*header*/
 header{
     background-color: rgb(109, 144, 234);
     
@@ -66,9 +67,133 @@ nav.show-nav a{
     display: block;
 }
 
+#menu.show::before{
+    content:"﹀";
+}
 
-h1{
+
+#welcome{
     font-size: 20px;
 }
 
+
+
+
+/*hero*/
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform: scale(1);
+        filter: blur(3px);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0);
+    }
+}
+picture img{
+    width:100%;
+    opacity: 0;
+    animation: fadeIn 1.2s ease-out forwards;
+    display:block;
+    position:relative;
+
+}
+
+#hero_msg{
+    position:absolute;
+    background-color: rgba(229, 240, 67, 0.7);
+    border: 2px solid orange;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 70%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    justify-items: center;
+    text-align: center;
+    padding:16px;
+}
+
+h1{
+    font-size: 6px;
+    color: rgb(19, 27, 248);
+}
+
+
+main{
+    background-color: white;
+}
+
+#introduction{
+    margin-top: 16px;
+    border: 2px solid;
+    border-radius: 16px;
+    background-color: rgb(119, 224, 224);
+    padding: 10px;
+}
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: rgb(109, 144, 234);
+    padding: 2rem;
+}
+
+.media{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    
+}
+
+.media img{
+    width:32px;
+}
+
+
+
+
+
+/*Contact*/
+
+.information{
+    display: block;
+    background-color: aquamarine;
+}
+
+.information a{
+    display: block;
+    margin: 10px;
+}
+
+.msg_box{
+    display: block;
+}
+label{
+    display: block;
+    margin: 16px;
+}
+
+
+/*reservation*/
+.resv_form{
+    display: block;
+}
+
+.resv_form input,
+.resv_form select,
+.resv_form textarea
+{
+    width:100%;
+}
+
+#accom{
+    height: 50px;
+}
 

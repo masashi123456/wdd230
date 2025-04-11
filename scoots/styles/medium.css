@@ -10,7 +10,7 @@
     #icon{
         width: 80px;
     }
-    .title h1{
+    #welcome{
         display: none;
     }
 
@@ -20,5 +20,30 @@
         gap:60px;
         font-size: 20px;
         margin-left: 0;
+    }
+
+    nav a{
+        display: block;
+    }
+
+    #menu{
+        display: none;
+    }
+
+
+
+    /*main*/
+    #hero_msg{
+        background-color: rgb(52, 54, 43);
+        color: aliceblue;
+        top:70%;
+    }
+
+    
+
+
+    /*footer*/
+    footer{
+        font-size: 32px;
     }
 }

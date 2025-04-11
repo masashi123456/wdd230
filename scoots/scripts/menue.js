@@ -9,22 +9,6 @@ document.addEventListener("DOMContentLoaded",()=>{
     });
 });
 
-/*function myFunction(){
-    var x = document.querySelectorAll('nav a');
-    x.forEach(d=>{
 
-        if(x.style.display === "block"){
-            x.style.display="none";
-        }else{
-            x.style.display = "block"
-        }
-    })
-}
 
-const nav = document.querySelector('.navigation')
-const respbutton = document.querySelector('#menu');
 
-respbutton.addEventListener('click', ()=>{
-    nav.classList.toggle('show');
-    respbutton.classList.toggle('show');
-})*/
