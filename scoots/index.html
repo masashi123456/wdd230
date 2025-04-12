@@ -25,7 +25,7 @@
     <header>
         <section class="title">
             <img id="icon" src="images/scoots.webp" alt="icon_img" loading="lazy">
-            <p id="welcome">Welcome to Scoots!!</p>
+            <p id="welcome">Best Adventure!!</p>
         </section>
         <a id="menu" href="#"></a>
         <nav id="navigation">
@@ -43,18 +43,37 @@
                 <source id="mhero" srcset="images/hmedium.webp" media="(min-width:426px)" loading="lazy">
                 <img id="lhero" src="images/hlarge.webp" alt="large_img" loading="lazy">
             </picture>
-            <div id="hero_msg">
+            <section id="hero_msg">
                 <p>Let's enjoy an adventure on Cozumel Island with us!! </p>
                 <a href="reservation.html">
                     <button>Book</button>
                 </a>
                     
-            </div>
+            </section>
+            <section id="max_temp">
+                <p>The current max temperature</p>
+                <div id="mTemp"></div>
+            </section>
+
         </div>
         <section id="introduction">
 
             <h1>Welcome to Scoots!!</h1>
             <p>Let's enjoy an adventure on Cozumel Island with us!! We offer a rental scooter, Jeep, ATVs for you. Discover the beauty and culture of Cozumel Island and make unforgettable experience!!</p>
+        </section>
+        <section class="w_box">
+            <figure id="wtitle">
+                <h2 id="weather">Today's weather in Cozumel: </h2>
+                <figcaption></figcaption>
+                <img id="wicon" src="unknow" alt="weather_icon">
+                <span id=currTemp></span>
+            </figure>
+            <figure id="tomorrow">
+                <div id="forecast">
+                    <div class="ndays" id="3pm"></div>
+                    
+                </div>
+            </figure>
         </section>
 
     </main>
@@ -81,5 +100,6 @@
     </footer>
     <script src="scripts/menue.js"></script>
     <script src="scripts/modified.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
