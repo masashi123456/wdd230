@@ -166,6 +166,15 @@ main{
     padding: 10px;
 }
 
+#introduction p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  
+  
+}
+
 .w_box{
     background-color: #dadce1;
     margin: 10px;
