@@ -1,4 +1,4 @@
-let nowDay = document.getElementById('today');
+/*let nowDay = document.getElementById('today');
 let currentDay = new Date();
 let Lday = currentDay.toLocaleDateString("en-US",{
     weekDay:'long',
@@ -7,11 +7,9 @@ let Lday = currentDay.toLocaleDateString("en-US",{
     year:'numeric',
 })
 nowDay.textContent = currentDay;
+*/
 
-let closeButton = document.querySelector('#close')
-closeButton.addEventListener('click', function(){
-    closeButton.toggleClass('.c')
-})
+
 
 
 
@@ -81,9 +79,9 @@ dark.addEventListener('click', ()=>{
 
 
 //banner
-const today = new Date();
-const dayWeek= today.getDay();
-if(dayWeek>=1&&dayWeek<=3){
+const btoday = new Date();
+const bdayWeek= btoday.getDay();
+if(bdayWeek>=1&&dayWeek<=3){
     document.getElementById('attendBanner').style.display = "block";
 }
 
