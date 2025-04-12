@@ -39,12 +39,22 @@
         top:70%;
     }
 
+    #max_temp{
+        font-size: 16px;
+    }
+
     
 
 
     /*footer*/
     footer{
         font-size: 32px;
+    }
+
+    .foot{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 16px;
     }
 
 
