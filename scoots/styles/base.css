@@ -16,6 +16,10 @@ header{
 .title p{
     margin-left: 35px;
     font-size: 25px;
+    font-style: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
 }
 
 #icon{
@@ -143,6 +147,10 @@ picture img{
 h1{
     font-size: 6px;
     color: rgb(19, 27, 248);
+    font-style: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
 }
 
 
